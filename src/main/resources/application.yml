@@ -3,9 +3,6 @@ server:
 spring:
   application:
     name: service-b
-eureka:
-  client:
-    service-url:
-      defaultZone: http://192.168.56.1:8761/eureka
-    register-with-eureka: true
-    fetch-registry: true
+service:
+  a:
+    url: https://servicea001.azurewebsites.net
